@@ -18,7 +18,6 @@ def main():
     print('Total wages: $' + str(total_wages))    
 
 
-    pass
 
 
 if name == 'main':
