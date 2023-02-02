@@ -10,8 +10,6 @@ def main():
     overtime_charge = overtime_hours * 27.78
     total_wages = regular_charge + overtime_charge
           
-#     print(f'Regular Hours: {regular_hours}\nRegular charge: ${regular_charge}\n')
-#     print(f'Overtime Hours: {overtime_hours}\nOvertime charge: ${overtime_charge}\n')
     print(f'Regular Hours: {regular_hours} Regular charge: ${regular_charge}')
     print(f'Overtime Hours: {overtime_hours} Overtime charge: ${overtime_charge}')
 
