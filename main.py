@@ -1,6 +1,5 @@
 # Joshua May
 # 02/01/23
-
 def main():
 
     workhours = int(input('Enter number of work hours: '))
@@ -10,15 +9,10 @@ def main():
     regular_charge = regular_hours * 18.25
     overtime_charge = overtime_hours * 27.78
     total_wages = regular_charge + overtime_charge
-
-    print('Regular hours: ' + str(regular_hours))
-    print('Regular charge: $' + str(regular_charge),'\n')
-    print('Overtime Hours:' + str(overtime_hours))
-    print('Overtime charge: $' + str(overtime_charge),'\n')
-    print('Total wages: $' + str(total_wages))    
-
-
-
+          
+    print(f'Regular Hours: {regular_hours}\nRegular charge: ${regular_charge}\n')
+    print(f'Overtime Hours: {overtime_hours}\nOvertime charge: ${overtime_charge}\n')
+    print(f'Total wages: ${total_wages}')
 
 if __name__ == '__main__':
     main()
