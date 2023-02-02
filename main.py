@@ -12,8 +12,8 @@ def main():
           
 #     print(f'Regular Hours: {regular_hours}\nRegular charge: ${regular_charge}\n')
 #     print(f'Overtime Hours: {overtime_hours}\nOvertime charge: ${overtime_charge}\n')
-    print(f'Regular Hours: {regular_hours} Regular charge: ${regular_charge}\n')
-    print(f'Overtime Hours: {overtime_hours} Overtime charge: ${overtime_charge}\n')
+    print(f'Regular Hours: {regular_hours} Regular charge: ${regular_charge}')
+    print(f'Overtime Hours: {overtime_hours} Overtime charge: ${overtime_charge}')
 
     print(f'Total wages: ${total_wages}')
 
