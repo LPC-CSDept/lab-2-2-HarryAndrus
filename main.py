@@ -1,5 +1,8 @@
 # Joshua May
 # 02/01/23
+
+def main():
+    ##################################################
 workhours = int(input('Enter number of work hours: '))
 
 regular_hours = 40
@@ -12,4 +15,15 @@ print('Regular hours: ' + str(regular_hours))
 print('Regular charge: $' + str(regular_charge),'\n')
 print('Overtime Hours:' + str(overtime_hours))
 print('Overtime charge: $' + str(overtime_charge),'\n')
-print('Total wages: $' + str(total_wages))
+print('Total wages: $' + str(total_wages))    
+##################################################
+
+
+
+
+    pass
+
+
+if name == 'main':
+    main()
+
